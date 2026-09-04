@@ -1,0 +1,36 @@
+{
+  "name": "code-reviewer",
+  "version": "0.1.0",
+  "description": "Review pull request changes for correctness, security, performance, reliability, and test risks.",
+  "author": {
+    "name": "Rishabh2561",
+    "url": "https://github.com/Rishabh2561"
+  },
+  "homepage": "https://github.com/Rishabh2561/code-reviewer-learning",
+  "repository": "https://github.com/Rishabh2561/code-reviewer-learning",
+  "license": "MIT",
+  "keywords": [
+    "code-review",
+    "pull-requests",
+    "security",
+    "performance"
+  ],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Code Reviewer",
+    "shortDescription": "Review pull requests for actionable engineering risks.",
+    "longDescription": "Use a repeatable review workflow and read-only repository tools to identify correctness, security, performance, reliability, and testing problems in proposed code changes.",
+    "developerName": "Rishabh2561",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Interactive",
+      "Read"
+    ],
+    "defaultPrompt": [
+      "Review this PR for security and performance issues.",
+      "Review these changes and prioritize actionable defects."
+    ],
+    "brandColor": "#2563EB"
+  }
+}
