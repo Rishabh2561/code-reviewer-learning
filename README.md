@@ -10,7 +10,7 @@ A learning plugin for ChatGPT and Codex that demonstrates a repeatable code-revi
 Install the MCP dependency:
 
 ```powershell
-py -m pip install -r plugins/code-reviewer/server-python/requirements.txt
+py -m pip install mcp==2.1.1
 ```
 
 ## Install from GitHub
